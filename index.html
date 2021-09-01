@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/1175/1175477.png">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+
+    <div class="container-header">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <div>
+          <h1 class="text-white fw-bold">Tic Tac Toe</h1>
+        </div>
+      </header>
+    </div>
+    <main class="main" id="main">
+      <div class="row m-0">
+        <div class="col-6 mx-auto board row py-2">
+          <div class="col-12 text-white text-center fw-bold fs-4" id="text">
+            It is player X's turn
+          </div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="0"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="1"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="2"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="3"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="4"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="5"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="6"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="7"></div>
+          <div class="col-4 border cell font-size text-center" role="button" data-index="8"></div>
+        </div>
+      </div>
+      <div class="row m-0">
+        <button class="restart mx-auto col-1 my-2 rounded px-3 py-2 fw-bold" id="restart">
+          RESTART
+        </button>
+      </div>
+
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
