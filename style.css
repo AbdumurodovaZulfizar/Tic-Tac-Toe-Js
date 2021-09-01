@@ -1,3 +1,24 @@
 .container-header {
   background-image: url(https://thumbs.dreamstime.com/z/tic-tac-toe-pattern-blue-background-chaotic-sample-74834641.jpg);
 }
+
+.board {
+  background-color: rgb(147, 241, 241);
+}
+
+.cell {
+  height: 120px;
+  background-color: #fff;
+}
+
+.restart {
+  background-color: rgb(147, 241, 241);
+  border: 0;
+  color: #fff;
+}
+
+.restart:hover {
+  background-color: #fff;
+  border: 2px solid rgb(147, 241, 241);
+  color: rgb(147, 241, 241);
+}
