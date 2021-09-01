@@ -6,15 +6,21 @@
   background-color: rgb(147, 241, 241);
 }
 
+
 .cell {
   height: 120px;
   background-color: #fff;
+  color: rgb(147, 241, 241);
 }
 
 .restart {
   background-color: rgb(147, 241, 241);
   border: 0;
   color: #fff;
+}
+
+.font-size {
+  font-size: 80px;
 }
 
 .restart:hover {
